@@ -87,3 +87,38 @@ Growth patterns indicate a 15-20% month-over-month increase in revenue, primaril
 - **Documentation**: Markdown format
 
 ## File Structure
+/diagram          - Entity Relationship Diagram
+/screenshots      - Query execution screenshots organized by function type
+/sql-scripts      - SQL implementation files
+
+01_create_tables.sql
+02_insert_data.sql
+03_window_functions.sql
+README.md         - Project documentation
+## How to Run
+1. Connect to Oracle Database Express Edition
+2. Execute scripts in order: create tables → insert data → run window functions
+3. Each query demonstrates specific window function capabilities
+4. Results can be verified through screenshots in the repository
+
+## References
+1. Oracle Database SQL Language Reference - Window Functions
+2. Oracle PL/SQL Programming Guide (Feuerstein & Pribyl)
+3. Database Systems: The Complete Book by Garcia-Molina
+4. SQL Performance Explained by Markus Winand
+5. Oracle Documentation - Analytic Functions
+6. Beginning Oracle SQL by Lex de Haan
+7. Pro Oracle SQL by Kerry Osborne
+8. Expert Oracle SQL by Tony Hasler
+9. Oracle Database 12c SQL by Jason Price
+10. Practical Oracle SQL by Kim Berg Hansen
+
+## Academic Integrity Statement
+All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.
+
+## Author
+Delphin Sano Nshuti  
+ID: 27903
+Course: Database Development with PL/SQL (INSY 8311)  
+Instructor: Eric Maniraguha  
+Submission Date: September 29, 2025
